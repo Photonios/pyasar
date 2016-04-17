@@ -1,9 +1,4 @@
 from setuptools import setup
-from pip.req import parse_requirements
-
-requirements = [
-    str(ir.req) for ir in parse_requirements('requirements.txt', session=False)
-]
 
 setup(
     name='pyasar',
@@ -15,5 +10,4 @@ setup(
     long_description=open('README.rst').read(),
     url='https://github.com/Photonios/pyasar.git',
     keywords=['asar', 'electron', 'pyasar'],
-    install_requires=requirements
 )
