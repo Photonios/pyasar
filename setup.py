@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='pyasar',
     packages=['asar'],
-    version='1.0.7',
+    version='1.0.8',
     author='Swen Kooij (Photonios)',
     author_email='photonios@outlook.com',
     description='Library for working with Electron\'s ASAR archives.',
