@@ -9,6 +9,18 @@ files. There's a Node.JS package for working with ASAR files:
 
 The URL above also contains the format documentation. Code was written for Python >3.4.
 
+Installation
+------------
+PyAsar is on PyPi (Python Package Index) and can be installed through Pip:
+
+::
+
+    pip install pyasar
+
+You can view more information about the package on the PyPi package:
+
+    https://pypi.python.org/pypi
+
 Example usage
 -------------
 
